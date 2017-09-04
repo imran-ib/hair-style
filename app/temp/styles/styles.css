@@ -601,6 +601,7 @@ li{
 	}
 
 .nav-bar ul li {
+		z-index: 10;
 		float: right;
 		position: relative;
 		top: -150px;
@@ -823,3 +824,15 @@ li{
 			float: right;
 			margin: 5px 10px 0 0;
 		}
+
+.about-section{
+	font-weight: 200;
+	letter-spacing: .7px;
+	line-height: 30px;
+	margin-bottom: 150px;
+}
+
+.about-section__heading{
+		font-weight: 500;
+		font-size: 20px;
+	}

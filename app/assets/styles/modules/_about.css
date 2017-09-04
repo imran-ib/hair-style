@@ -1,0 +1,12 @@
+.about-section{
+	font-weight: 200;
+	letter-spacing: .7px;
+	line-height: 30px;
+	margin-bottom: 150px;
+	
+
+	&__heading{
+		font-weight: 500;
+		font-size: 20px;
+	}
+}

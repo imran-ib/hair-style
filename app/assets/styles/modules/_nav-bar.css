@@ -25,6 +25,7 @@
 		margin-right: 250px;
 	}
 	& ul li {
+		z-index: 10;
 		float: right;
 		position: relative;
 		top: -150px;
