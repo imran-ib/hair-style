@@ -1,12 +1,18 @@
 .site-header{
+		position: relative;
 		width: 940px;
-		height: 23.5rem;
+		height: 23.57rem;
 		background-color: #fff;
 		border: 3px solid $border;
 		border-radius: 5px;
+
+			@mixin clearfix;
 	
 
 	&__img{
+		position: relative;
+		
+		bottom: 0.6rem;
 		float: left;
 
 		

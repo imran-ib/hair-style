@@ -3,12 +3,123 @@
 	border-radius: 5px;
 	margin-right: 30px;
 	padding: 10px;
+	background-color: #fff;
+	height: 580px;
+
+	&-main-heading{
+		background-color: $mainLogo;
+		color: #fff;
+		width: 160px;
+		height: 50px;
+		text-align: center;
+		font-size: 30px;
+		font-weight: 200;
+		letter-spacing: 3px;
+		padding-top: 10px;
+		position: relative;
+		top: -50px;
+	}
+	&-testimonial__img{
+		position: relative;
+		top: -50px;
+	}
+	&-subheading{
+		font-weight: 400;
+		position: relative;
+		top: -160px;
+		left: 120px;
+
+	}
+	&-block{
+		position: relative;
+		top: -100px;
+	
+	}
+	&-paragraph{
+		padding-top: 10px;
+		line-height: 20px;
+		letter-spacing: 0.7px;
+		font-size: 12px;
+		padding-bottom: 20px;
+	}
+
+	&-authore{
+		position: relative;
+		left: 350px;
+		top: -40px;
+		font-size: 20px;
+		color: #fff;
+		z-index: 10;
+	}
 	
 
-	&-left{
-		
+	
+}
+
+.feature-left{
+
+	&-block__top{
+		padding: 20px;
+		background-color: $mainNav;
+		height: 270px;
+		border: 5px solid $border;
+		border-radius: 5px;
+
+	}
+
+
+	&__main-heading{
+		background-color: $mainLogo;
+		color: #fff;
+		width: 160px;
+		height: 50px;
+		text-align: center;
+		font-size: 27px;
+		font-weight: 200;
+		letter-spacing: 3px;
+		padding-top: 10px;
+		position: relative;
+		top: -70px;
+
+	}
+
+	&__paragraph{
+		position: relative;
+		top: -50px;
+		line-height: 25px;
+		letter-spacing: 0.7px;
+		font-size: 12px;
+		color: #fff;
+	}
+
+	&-block__bottom{
+		padding: 20px;
+		background-color: $mainNav;
+		height: 250px;
+		border: 5px solid $border;
+		border-radius: 5px;
+		margin-top: 30px;
+	}
+
+	&__img{
+
+		position: relative;
+		top: -180px;
+		left: -20px;
+	}
+
+	&__b-text{
+		position: relative;
+		left: 200px;
+		width: 220px;
+		font-size: 20px;
+		color: #fff;
+		line-height: 25px;
+		letter-spacing: 0.7px;
 	}
 }
+
+
 
 #feature{
 	margin-top: 30px;
