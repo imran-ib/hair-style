@@ -1,0 +1,30 @@
+.page-section{
+	margin-top: 50px;
+
+		@mixin clearfix;
+
+	
+	&__img{
+		width: 220px;
+		height: 200px;
+		border: 5px solid $border;
+		border-radius: 5px;
+		margin-right: 50px;
+	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+
+	
+	}
+
+	&__heading{
+		font-weight: 400;
+	}
+
+
+	&__p{
+		font-size: 12px;
+		line-height: 20px;
+		letter-spacing: 0.7px;
+		padding-right: 15px;
+
+	}
+}

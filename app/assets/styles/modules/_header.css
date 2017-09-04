@@ -1,0 +1,24 @@
+.site-header{
+		width: 940px;
+		height: 23.5rem;
+		background-color: #fff;
+		border: 2px solid $border;
+		border-radius: 5px;
+	
+
+	&__img{
+		float: left;
+		
+	}
+
+	&__heading{
+		font-weight: bolder;
+		font-size: 2.5rem;
+		width: 26.875rem;
+		color: $heading;
+		position: relative;
+		top: -15rem;
+		left: 31.25rem;
+
+	}
+}
