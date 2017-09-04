@@ -2,12 +2,13 @@
 		width: 940px;
 		height: 23.5rem;
 		background-color: #fff;
-		border: 2px solid $border;
+		border: 3px solid $border;
 		border-radius: 5px;
 	
 
 	&__img{
 		float: left;
+
 		
 	}
 
