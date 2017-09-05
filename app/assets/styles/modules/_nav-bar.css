@@ -12,29 +12,46 @@
 		position: relative;
 		top: 0;
 		left: 150px;
-		width: 270px;
+		width: 150px;
 		background-color: $mainLogo;
 		color: #fff;
-		padding: 40px;
-		font-size: 50px;
+		
+		font-size: 30px;
 		text-transform: uppercase;
+
+		
+
+		
+			padding: 40px;
+			width: 270px;
+			font-size: 50px;
+		
+		
 	}
 	&__link{
-		display: flex;
-		flex-direction: row-reverse;
-		margin-right: 250px;
+		display: inline-block;
+
+
+
+		
 	}
 	& ul li {
-		z-index: 10;
-		float: right;
 		position: relative;
-		top: -150px;
-		right: 290px;
+		top: -70px;
+		right: 150px;
+		display: block;
+		float: right;
+
+		overflow: hidden;
+		z-index: 10;
 		background-color: $mainLogo;
 		margin-right: 20px;
 		padding: 10px;
 		border-radius: 5px;
 
+			
+
+		
 		& a{
 			text-align: center;
 			display: inline-block;
