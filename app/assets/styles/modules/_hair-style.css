@@ -1,0 +1,29 @@
+.hair-style{
+
+	@mixin clearfix;
+
+	&__heading{
+		font-weight: 200;
+	}
+
+	&__img{
+		margin-right: 10px;
+		margin-bottom: 20px;
+	}
+	&__link{
+			margin: 0 430px;
+
+	}
+
+	&__link a{
+		color: black;
+		text-align: center;
+		font-weight: 300;
+	
+	}
+
+}
+
+.wrapper-col-4{
+	grid-gap:0px
+}

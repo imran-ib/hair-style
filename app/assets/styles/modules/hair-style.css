@@ -1,0 +1,8 @@
+.hair-style{
+
+	&__img{
+		display: flex;
+		flex-direction:row;
+	}
+
+}

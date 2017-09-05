@@ -1,0 +1,52 @@
+.news{
+
+
+	@mixin clearfix;
+
+	&-left{
+
+	}
+
+	&-left__heading{
+		font-weight: 400;
+	}
+
+	& p{
+		font-size: 13px;
+		line-height: 25px;
+		letter-spacing: 0.8px;
+		padding-right: 30px;
+		padding-bottom: 20px;
+		font-weight: 300;
+	}
+
+	&-right{
+		background-color: #fff;
+		border: 5px solid $border;
+		border-radius: 5px;
+		padding: 10px;
+
+		& a {
+			color: $mainLogo;
+			text-decoration: none;
+			font-weight: 600;
+		}
+
+	}
+	&-right__heading{
+		text-align: center;
+		font-weight: 300;
+		color: $mainLogo;
+	}
+
+}
+
+.wrapper-col-3{
+	float: right;
+
+
+
+}
+.wrapper-col-8{
+	float: left;
+}

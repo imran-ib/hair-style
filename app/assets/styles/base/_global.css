@@ -1,5 +1,7 @@
 *{
 	box-sizing: border-box;
+
+
 }
 
 body{
@@ -15,4 +17,8 @@ a{
 li{
 	list-style: none;
 }
+p{
+	
+}
+
 

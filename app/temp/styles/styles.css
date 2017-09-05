@@ -453,6 +453,8 @@ template {
 *{
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
+
+
 }
 
 body{
@@ -467,6 +469,10 @@ a{
 
 li{
 	list-style: none;
+}
+
+p{
+	
 }
 
 .wrapper{
@@ -806,10 +812,11 @@ li{
 	}
 
 .footer-social {
+		overflow: hidden;
 		position: relative;
 		bottom: 10px;
 		right: 150px;
-		width: 165px;
+		width: 200px;
 		height: 60px;
 		float: right;
 		background-color:rgba(56,122,130,.8);
@@ -821,8 +828,13 @@ li{
 		}
 
 .footer-social ul li{
-			float: right;
+			float: left;
 			margin: 5px 10px 0 0;
+		}
+
+.footer-social__icons{
+			width: 20px;
+			height: 20px;
 		}
 
 .about-section{
@@ -836,3 +848,112 @@ li{
 		font-weight: 500;
 		font-size: 20px;
 	}
+
+.hair-style::after{
+			content:"";
+			clear: both;
+			display: table;
+		}
+
+.hair-style__heading{
+		font-weight: 200;
+	}
+
+.hair-style__img{
+		margin-right: 10px;
+		margin-bottom: 20px;
+	}
+
+.hair-style__link{
+			margin: 0 430px;
+
+	}
+
+.hair-style__link a{
+		color: black;
+		text-align: center;
+		font-weight: 300;
+	
+	}
+
+.wrapper-col-4{
+	grid-gap:0px
+}
+
+.news::after{
+			content:"";
+			clear: both;
+			display: table;
+		}
+
+.news-left{
+
+	}
+
+.news-left__heading{
+		font-weight: 400;
+	}
+
+.news p{
+		font-size: 13px;
+		line-height: 25px;
+		letter-spacing: 0.8px;
+		padding-right: 30px;
+		padding-bottom: 20px;
+		font-weight: 300;
+	}
+
+.news-right{
+		background-color: #fff;
+		border: 5px solid #5fb3bd;
+		border-radius: 5px;
+		padding: 10px;
+
+	}
+
+.news-right a {
+			color: #212740;
+			text-decoration: none;
+			font-weight: 600;
+		}
+
+.news-right__heading{
+		text-align: center;
+		font-weight: 300;
+		color: #212740;
+	}
+
+.wrapper-col-3{
+	float: right;
+
+
+
+}
+
+.wrapper-col-8{
+	float: left;
+}
+
+.contact{
+	height: 300px;
+}
+
+.contact::after{
+			content:"";
+			clear: both;
+			display: table;
+		}
+
+.contact p {
+		font-size: 13px;
+		line-height: 25px;
+		letter-spacing: 0.8px;
+		padding-right: 30px;
+		padding-bottom: 20px;
+		font-weight: 300;
+	}
+
+.address {
+	font-weight: 300;
+	line-height: 30px;
+}
